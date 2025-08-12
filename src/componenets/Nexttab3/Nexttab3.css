@@ -1,0 +1,63 @@
+.nexttab3-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #0e0927;
+  overflow-x: hidden;
+}
+
+.nexttab3-text {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.slideshow-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.nexttab3-text p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.nexttab3-image {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+}
+
+.nexttab3-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .nexttab3-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 6px;
+  }
+
+  .nexttab3-text {
+    flex: 0 1 100%;
+    padding: 0;
+    margin: 30px 0;
+  }
+
+  .nexttab3-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .nexttab3-image {
+    max-width: 100%;
+  }
+}
